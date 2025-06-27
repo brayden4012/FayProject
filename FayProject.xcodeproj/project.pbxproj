@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2F6518852E0CAA29006FF3DA /* CoreNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 2F6518842E0CAA29006FF3DA /* CoreNetworking */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2F6518612E0CA847006FF3DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6518852E0CAA29006FF3DA /* CoreNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				2F6518552E0CA844006FF3DA /* FayProject */,
 				2F6518632E0CA847006FF3DA /* FayProjectTests */,
 				2F65186D2E0CA847006FF3DA /* FayProjectUITests */,
+				2F6518832E0CAA28006FF3DA /* Frameworks */,
 				2F6518542E0CA844006FF3DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				2F65186A2E0CA847006FF3DA /* FayProjectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6518832E0CAA28006FF3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = FayProject;
 			packageProductDependencies = (
+				2F6518842E0CAA29006FF3DA /* CoreNetworking */,
 			);
 			productName = FayProject;
 			productReference = 2F6518532E0CA844006FF3DA /* FayProject.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = 2F65184A2E0CA844006FF3DA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2F65187E2E0CA8F5006FF3DA /* XCRemoteSwiftPackageReference "CoreNetworking" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2F6518542E0CA844006FF3DA /* Products */;
 			projectDirPath = "";
@@ -402,6 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,6 +447,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +569,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F65187E2E0CA8F5006FF3DA /* XCRemoteSwiftPackageReference "CoreNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/brayden4012/CoreNetworking.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F6518842E0CAA29006FF3DA /* CoreNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F65187E2E0CA8F5006FF3DA /* XCRemoteSwiftPackageReference "CoreNetworking" */;
+			productName = CoreNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F65184B2E0CA844006FF3DA /* Project object */;
 }
