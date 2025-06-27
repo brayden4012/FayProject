@@ -1,6 +1,9 @@
 # FayProject
 A short take-home project to replicate the overview screen of the Fay nutrition app
 
+## Demo
+https://youtube.com/shorts/E5p1gSwVEJY?feature=share
+
 ## Overview
 I previously wrote up a simple networking library (called [CoreNetworking](https://github.com/brayden4012/CoreNetworking)), and thought this would be a great opportunity to refine and extend the functionality of that library to streamline the setup of future projects. The `CoreNetworking` package enforces the stance that all network models must be decoupled from the domain layer of the app, and not following this standard will trigger errors.
 
